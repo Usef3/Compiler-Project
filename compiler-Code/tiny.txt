@@ -1,0 +1,14 @@
+void printNumbers(int n) {
+    int i;
+    
+    for (i = 0; i <= n; i++) {
+        write(i);
+    }
+}
+void main() {
+    int num;
+    
+    /* Read input */
+    read(num);
+    printNumbers(num);
+}
